@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* IMPORT FONT BY GOOGLE FONTS */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /* CSS Document */
