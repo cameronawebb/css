@@ -1,7 +1,7 @@
 .grid {
   letter-spacing: -0.31em;
-  *letter-spacing: normal;
-  *word-spacing: -0.43em;
+  letter-spacing: normal;
+  word-spacing: -0.43em;
   text-rendering: optimizespeed;
 }
 .opera-only :-o-prefocus,
@@ -11,7 +11,7 @@
 .unit {
 	background-color:#91CEF3;
   display: inline-block;
-  *display: inline;
+  display: inline;
   zoom: 1;
   letter-spacing: normal;
   text-rendering: auto;
