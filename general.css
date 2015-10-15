@@ -1,13 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-body {
-	padding:0;
-	margin:0;
-}
-
-header{
+*, body, header{
 	margin:0;
 	padding:0;
+	
 }
 
 .logo{
@@ -68,71 +64,70 @@ footer{
 }
 
 @media only screen and (min-width: 38em){
-
-nav{
-	text-align:right;
-	padding:10px 9px 0 0;
-	margin:0;
-	font-size:1rem;
-}
+	nav{
+		text-align:right;
+		padding:10px 9px 0 0;
+		margin:0;
+		font-size:1rem;
+	}
 	
-.flex{
-	float: left;
-	margin-right: 50px;
-	padding: 15px 0 0 0;
-}
+	.flex{
+		float: left;
+		margin-right: 50px;
+		padding: 15px 0 0 0;
+	}
 
-.unit p{
-	padding:0 1px;
-	overflow:hidden;
-}
-
-.main-image{
-	height:150px;
-}
-
-.unit img{
-	text-align:center;
-	margin: 0 auto;
-	display:block;
-	padding-bottom:20px;
-	padding-right:10px;
-}
+	.unit p{
+		padding:0 1px;
+		overflow:hidden;
+	}
+	
+	.main-image{
+		height:150px;
+	}
+	
+	.unit img{
+		text-align:center;
+		margin: 0 auto;
+		display:block;
+		padding-bottom:20px;
+		padding-right:10px;
+	}
 }
 
 @media only screen and (min-width: 60em){
 
-nav{
-	text-align:right;
-	padding:10px 9px 0 0;
-	margin:0;
-}
-
-.unit img{
-	text-align:center;
-	margin: 0 auto;
-	display:block;
-	padding-bottom:10px;
-	padding-right:10px;
-}
+	nav{
+		text-align:right;
+		padding:10px 9px 0 0;
+		margin:0;
+	}
+	
+	.unit img{
+		text-align:center;
+		margin: 0 auto;
+		display:block;
+		padding-bottom:10px;
+		padding-right:10px;
+	}
 
 	
 }
 
 @media only screen and (min-width: 150em){
 
-nav{
-	text-align:right;
-	padding:10px 9px 0 0;
-	margin:0;
-}
-
-.unit img{
-	text-align:center;
-	margin: 0 auto;
-	display:block;
-	padding-bottom:20px;
-	padding-right:10px;
-}
+	nav{
+		text-align:right;
+		padding:10px 9px 0 0;
+		margin:0;
+	}
+	
+	.unit img{
+		text-align:center;
+		margin: 0 auto;
+		display:block;
+		padding-bottom:20px;
+		padding-right:10px;
+	}
 	
 }
